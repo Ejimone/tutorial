@@ -179,6 +179,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+
+
 // body background color should change every 1 second, it should be flowing, also the  colors should be random, it should be changing smoothly, easing and a transition should be applied
 document.body.style.transition = "background-color 1s ease-in-out";
 setInterval(() => {
