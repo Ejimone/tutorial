@@ -1,0 +1,26 @@
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  &:hover {
+    color: green;
+  }
+}
